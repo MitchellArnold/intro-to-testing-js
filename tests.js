@@ -13,3 +13,11 @@ describe('helloWorld', function() {
       expect(helloWorld()).not.toBe(undefined);
     });
 });
+
+
+describe('helloEarth', function () {
+    it('should use sayHello', function () {
+        expect(sayHello).toBe('function');
+    });
+    it('')
+});
